@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="booking.css" />
+    <title>Booking Page</title>
+  </head>
+
+  <body class="bg-primary text-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="booking.html">Cabs Online</a>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="booking.html"
+              >Home</a
+            >
+            <a class="nav-link" href="admin.html">Admin</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <h1 id="middle">Booking Form</h1>
+    <div class="container">
+      <div id="response"></div>
+
+      <form id="bookingForm">
+        <div class="row">
+          <div class="col-8">
+            <div class="card p-3 mb-6 bg-secondary text-white">
+              <div class="form-group row">
+                <label for="cname" class="col-sm-3 col-form-label"
+                  >Customer Name</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="text"
+                    name="cname"
+                    class="form-control"
+                    id="cname"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="phone" class="col-sm-3 col-form-label"
+                  >Phone Number</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="text"
+                    name="phone"
+                    class="form-control"
+                    id="phone"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="unumber" class="col-sm-3 col-form-label"
+                  >Unit Number</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="text"
+                    name="unumber"
+                    class="form-control"
+                    id="unumber"
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="snumber" class="col-sm-3 col-form-label"
+                  >Street Number</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="text"
+                    name="snumber"
+                    class="form-control"
+                    id="snumber"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="stname" class="col-sm-3 col-form-label"
+                  >Street Name</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="text"
+                    name="stname"
+                    class="form-control"
+                    id="stname"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="sbname" class="col-sm-3 col-form-label"
+                  >Suburb</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="text"
+                    name="sbname"
+                    class="form-control"
+                    id="sbname"
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="dsbname" class="col-sm-3 col-form-label"
+                  >Destination Suburb</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="text"
+                    name="dsbname"
+                    class="form-control"
+                    id="dsbname"
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="date" class="col-sm-3 col-form-label"
+                  >Pick-Up Date</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="date"
+                    name="date"
+                    class="form-control"
+                    id="date"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="time" class="col-sm-3 col-form-label"
+                  >Pick-Up Time</label
+                >
+                <div class="col-sm-4">
+                  <input
+                    type="time"
+                    name="time"
+                    class="form-control"
+                    id="time"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4 d-flex justify-content-sm-center">
+                  <button type="submit" class="btn btn-primary">Book</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="booking.js"></script>
+  </body>
+</html>

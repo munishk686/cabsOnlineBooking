@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <title>Admin Page</title>
+  </head>
+  <body class="bg-primary text-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="booking.html">Cabs Online</a>
+
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="booking.html"
+              >Home</a
+            >
+            <a class="nav-link" href="admin.html">Admin</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <form id="bookingForm">
+      <label for="bsearch">Search Booking Request:</label>
+      <input type="text" name="bsearch" id="bsearch">
+      <button type="submit" name="sbutton">Search</button>
+    </form>
+
+      <div class="content" id="reference"></div>
+    </div>
+
+    <script src="admin.js"></script>
+  </body>
+</html>
