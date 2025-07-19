@@ -1,35 +1,37 @@
-        CSS styles for the header
-        header {
-            background-color: #f2f2f2;
-            padding: 20px;
-        }
-        
-        .logo {
-            font-size: 24px;
-            font-weight: bold;
-        }
-        
-        nav {
-            margin-top: 10px;
-        }
-        
-        nav ul {
-            list-style-type: none;
-            padding: 0;
-            margin: 0;
-            display: flex;
-        }
-        
-        nav ul li {
-            margin-right: 10px;
-        }
-        
-        .login {
-            margin-left: auto;
-        }
-        #middle {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-      
+body {
+  background-color: #f8f9fa;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.navbar {
+  border-bottom: 1px solid #ddd;
+}
+
+#middle {
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  margin-top: 10px;
+}
+.navbar {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: #fff !important;
+}
+
